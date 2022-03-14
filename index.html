@@ -7,11 +7,36 @@ order: 1
 
 {% assign filenames = "cover.jpg,chickenwalker_orig.jpg" | split: "," %}
 <div class ="image-gallery">
-{% for name in filenames %}
     <div class="box">
-    <a href="{{ site.imagesurl }}{{ name }}">
-      <img src="{{ site.imagesurl }}{{ name }} " alt="{{ name }}"  class="img-gallery" />
+    <a href="{{ site.imagesurl }}{{ 'cover.jpg' }}">
+      <img src="{{ site.imagesurl }}{{ 'cover.jpg' }} " alt="{{ 'cover.jpg' }}"  class="img-gallery" />
+      <div class="caption">Caption 1</div>
+     </a>
+
+    </div>
+    <div class="box">
+    <a href="{{ site.imagesurl }}{{ 'cover.jpg' }}">
+      <img src="{{ site.imagesurl }}{{ 'cover.jpg' }} " alt="{{ 'cover.jpg' }}"  class="img-gallery" />
      </a>
     </div>
- {% endfor %}
+    <div class="box">
+    <a href="{{ site.imagesurl }}{{ 'cover.jpg' }}">
+      <img src="{{ site.imagesurl }}{{ 'cover.jpg' }} " alt="{{ 'cover.jpg' }}"  class="img-gallery" />
+     </a>
+    </div>
+    <div class="box">
+    <a href="{{ site.imagesurl }}{{ 'cover.jpg' }}">
+      <img src="{{ site.imagesurl }}{{ 'cover.jpg' }} " alt="{{ 'cover.jpg' }}"  class="img-gallery" />
+     </a>
+    </div>
+    <div class="box">
+    <a href="{{ site.imagesurl }}{{ 'cover.jpg' }}">
+      <img src="{{ site.imagesurl }}{{ 'cover.jpg' }} " alt="{{ 'cover.jpg' }}"  class="img-gallery" />
+     </a>
+    </div>
+    <div class="box">
+    <a href="{{ site.imagesurl }}{{ 'cover.jpg' }}">
+      <img src="{{ site.imagesurl }}{{ 'cover.jpg' }} " alt="{{ 'cover.jpg' }}"  class="img-gallery" />
+     </a>
+    </div>
 </div>
