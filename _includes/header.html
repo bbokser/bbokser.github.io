@@ -5,7 +5,7 @@
     <div class="container">
 
       <h1 class="title">
-        <a href="{{ site.baseurl }}/">{{ site.title }}</a> <small>v2</small>
+        <a href="{{ site.baseurl }}/">{{ site.title }}</a> {% comment %} <small>v2</small> {% endcomment %}
       </h1>
 
       <nav class="navbar">
@@ -16,12 +16,19 @@
         </a>
 
         <ul class="nav">
-          {% for page in site.pages %}
-            {% if page.title and page.title != 'Home' %}
+          {% assign sorted_pages = site.pages | sort:"order" %}
+
+          {% for page in sorted_pages %}
+            
+            {% comment %} if page.title and page.title != 'Projects' {% endcomment %}
+            
+            {% if page.title %}
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
-          <li><a href="{{ site.author.url }}/about" target="_blank">the autor</a></li>
+            {% comment %}
+            <li><a href="{{ site.author.url }}/about" target="_blank">the author</a></li>
+            {% endcomment %}
           <li><a href="{{ site.github }}" target="_blank">Github</a></li>
         </ul>
       </nav>
@@ -29,7 +36,10 @@
 
     {% if page.slug == 'home' %}
       <h2 class="txt-center">
+        <strong>Projects</strong>!
+        {% comment %}
         Welcome to <strong>{{ site.title }}</strong>!
+        {% endcomment %}
       </h2>
     {% endif %}
 

@@ -13,9 +13,9 @@ author:
   twitter  : http://twitter.com/b_bokser
 
 github: https://github.com/bbokser
-google_analytics: UA-52446115-1
+# google_analytics: UA-52446115-1
 
-paginate: 2
+paginate: 4
 comments: true
 paginate_path: "/page/:num"
 
