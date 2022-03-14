@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-order: 2
+order: 3
 ---
 
 I am primarily interested in developing novel robots and the vast, multidisciplinary skill set required for developing them.

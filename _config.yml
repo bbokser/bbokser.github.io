@@ -17,7 +17,7 @@ github: https://github.com/bbokser
 
 paginate: 4
 comments: true
-paginate_path: "/page/:num"
+paginate_path: "blog/page/:num"
 
 sass:
   style: :compressed
@@ -26,3 +26,7 @@ sass:
 # Build settings
 markdown  : kramdown
 permalink : /:title/
+
+# images
+imagesurl: "/images/"
+# thumbsurl: "/mysite/thumbs/"
