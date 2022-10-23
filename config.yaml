@@ -1,0 +1,5 @@
+baseURL: http://bbokser.github.io
+disablePathToLower: true
+languageCode: en-us
+title: Ben Bokser
+theme: "PaperMod"

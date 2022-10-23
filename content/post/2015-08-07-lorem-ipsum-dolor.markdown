@@ -1,9 +1,8 @@
 ---
-layout: post
-title:  "Lorem ipsum dolor sit amet, consectetuer adipiscing elit"
-date:   2015-08-07 03:00:08
 categories: Lorem
 comments: true
+date: "2015-08-07T03:00:08Z"
+title: Lorem ipsum dolor sit amet, consectetuer adipiscing elit
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
