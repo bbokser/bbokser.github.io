@@ -1,4 +1,10 @@
-name: CI
+name: Github Pages
+
+on:
+  push:
+    branches:
+      - hugo-sources
+
 on: push
 jobs:
   deploy:
