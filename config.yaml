@@ -3,3 +3,4 @@ disablePathToLower: true
 languageCode: en-us
 title: Ben Bokser
 theme: "PaperMod"
+# publishDir: docs
