@@ -2,7 +2,8 @@ baseURL: "https://bbokser.github.io/"
 disablePathToLower: true
 languageCode: en-us
 title: Ben Bokser
-theme: "PaperMod"
+paginate: 25
+theme: PaperMod
 # publishDir: docs
 
 params:
