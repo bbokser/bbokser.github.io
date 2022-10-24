@@ -19,9 +19,8 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Update theme
-        # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
-        run: git submodule update --init --recursive
+      # - name: Update theme
+      #   run: git submodule update --init --recursive
 
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
@@ -29,19 +28,17 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build
-        # remove --minify tag if you do not need it
-        # docs: https://gohugo.io/hugo-pipes/minification/
-        run: hugo --minify
+        run: hugo --buildDrafts=false --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          # external_repository: bbokser/bbokser.github.io
+          publish_branch: gh-pages
           publish_dir: ./
+          # external_repository: bbokser/bbokser.github.io
           #   keep_files: true
           # user_name: bbokser
           # user_email: bbokser@gmail.com
-          publish_branch: gh-pages
-        #   cname: example.com
+          # cname: example.com
