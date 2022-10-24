@@ -9,9 +9,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
+    # permissions:
+    #   contents: read
+    #   pages: write
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
@@ -39,7 +39,7 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           # external_repository: bbokser/bbokser.github.io
-          publish_dir: ./public
+          publish_dir: ./
           #   keep_files: true
           # user_name: bbokser
           # user_email: bbokser@gmail.com
