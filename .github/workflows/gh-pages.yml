@@ -6,12 +6,25 @@ on:
       - main
   pull_request:
 
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+    
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    # permissions:
-    #   contents: read
-    #   pages: write
+
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
@@ -36,7 +49,7 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_branch: gh-pages
-          publish_dir: ./
+          publish_dir: ./public
           # external_repository: bbokser/bbokser.github.io
           #   keep_files: true
           # user_name: bbokser
