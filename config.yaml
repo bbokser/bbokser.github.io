@@ -141,10 +141,10 @@ menu:
         - name: Portfolio
           url: https://benbokser.com/
           weight: 50
-        - identifier: search 
-          name: Search 
-          url: /search/ 
-          weight: 60
+        # - identifier: search 
+        #   name: Search 
+        #   url: /search/ 
+        #   weight: 60
         
  
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
