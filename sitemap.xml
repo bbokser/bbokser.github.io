@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://bbokser.github.io/</loc><lastmod>2015-08-08T03:00:08+00:00</lastmod></url><url><loc>https://bbokser.github.io/categories/</loc><lastmod>2015-08-08T03:00:08+00:00</lastmod></url><url><loc>https://bbokser.github.io/categories/jekyll-update/</loc><lastmod>2015-08-08T03:00:08+00:00</lastmod></url><url><loc>https://bbokser.github.io/post/</loc><lastmod>2015-08-08T03:00:08+00:00</lastmod></url><url><loc>https://bbokser.github.io/post/2015-08-08-welcome-to-jekyll/</loc><lastmod>2015-08-08T03:00:08+00:00</lastmod></url><url><loc>https://bbokser.github.io/categories/Lorem/</loc><lastmod>2015-08-07T03:00:08+00:00</lastmod></url><url><loc>https://bbokser.github.io/post/2015-08-07-lorem-ipsum-dolor/</loc><lastmod>2015-08-07T03:00:08+00:00</lastmod></url><url><loc>https://bbokser.github.io/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://bbokser.github.io/</loc>
+    <lastmod>2015-08-08T03:00:08+00:00</lastmod>
+  </url><url>
+    <loc>https://bbokser.github.io/categories/</loc>
+    <lastmod>2015-08-08T03:00:08+00:00</lastmod>
+  </url><url>
+    <loc>https://bbokser.github.io/categories/jekyll-update/</loc>
+    <lastmod>2015-08-08T03:00:08+00:00</lastmod>
+  </url><url>
+    <loc>https://bbokser.github.io/post/</loc>
+    <lastmod>2015-08-08T03:00:08+00:00</lastmod>
+  </url><url>
+    <loc>https://bbokser.github.io/post/2015-08-08-welcome-to-jekyll/</loc>
+    <lastmod>2015-08-08T03:00:08+00:00</lastmod>
+  </url><url>
+    <loc>https://bbokser.github.io/categories/Lorem/</loc>
+    <lastmod>2015-08-07T03:00:08+00:00</lastmod>
+  </url><url>
+    <loc>https://bbokser.github.io/post/2015-08-07-lorem-ipsum-dolor/</loc>
+    <lastmod>2015-08-07T03:00:08+00:00</lastmod>
+  </url><url>
+    <loc>https://bbokser.github.io/tags/</loc>
+  </url>
+</urlset>
