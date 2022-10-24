@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Ben Bokser</title>
+    <link>https://bbokser.github.io/post/</link>
+    <description>Recent content in Posts on Ben Bokser</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Aug 2015 03:00:08 +0000</lastBuildDate><atom:link href="https://bbokser.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Jekyll!</title>
+      <link>https://bbokser.github.io/post/2015-08-08-welcome-to-jekyll/</link>
+      <pubDate>Sat, 08 Aug 2015 03:00:08 +0000</pubDate>
+      
+      <guid>https://bbokser.github.io/post/2015-08-08-welcome-to-jekyll/</guid>
+      <description>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
+To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.</description>
+    </item>
+    
+    <item>
+      <title>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</title>
+      <link>https://bbokser.github.io/post/2015-08-07-lorem-ipsum-dolor/</link>
+      <pubDate>Fri, 07 Aug 2015 03:00:08 +0000</pubDate>
+      
+      <guid>https://bbokser.github.io/post/2015-08-07-lorem-ipsum-dolor/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
+    </item>
+    
+  </channel>
+</rss>
