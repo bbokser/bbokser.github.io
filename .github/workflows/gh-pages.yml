@@ -3,12 +3,12 @@ name: Github Pages
 on:
   push:
     branches:
-      - hugo-sources
+      - main
   pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
@@ -42,5 +42,5 @@ jobs:
           #   keep_files: true
           # user_name: bbokser
           # user_email: bbokser@gmail.com
-          publish_branch: master
+          publish_branch: gh-pages
         #   cname: example.com

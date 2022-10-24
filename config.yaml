@@ -6,6 +6,10 @@ paginate: 25
 theme: PaperMod
 # publishDir: docs
 
+minify:
+    disableXML: true
+    minifyOutput: true
+    
 params:
   fullWidthTheme: false
   centerTheme: true
