@@ -26,7 +26,8 @@ params:
     author: Ben Bokser
     title: Ben Bokser's Blog
     DateFormat: "January 2, 2006"
-
+    customCSS: /style.css
+    justifyContent: true
     defaultTheme: auto
     # disableThemeToggle: true
     ShowShareButtons: true
@@ -156,3 +157,4 @@ markup:
         guessSyntax: true
         # lineNos: true
         style: monokai
+
