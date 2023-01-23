@@ -5,11 +5,21 @@
     <link>https://bbokser.github.io/posts/</link>
     <description>Recent content in Posts on Ben Bokser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://bbokser.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bbokser.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stable Bipedal Walking in Simulation</title>
+      <link>https://bbokser.github.io/posts/2021-07-20/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bbokser.github.io/posts/2021-07-20/</guid>
+      <description>In late 2019, I designed a custom QDD gearbox. Then I designed a bipedal robot with said gearing. By early 2020 I was spending about an hour per day after work coding a controller for the bipedal robot I had designed. In that time I learned a great deal of Python, and my controls proficiency skyrocketed. Then I started grad school and had to put this project on hold for about six months.</description>
+    </item>
+    
     <item>
       <title>Model Predictive Control for a Legged Robot</title>
       <link>https://bbokser.github.io/posts/2020-10-12/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://bbokser.github.io/posts/2020-10-12/</guid>
       <description>I have recently implemented a model predictive controller (MPC) to calculate the necessary reaction forces for a legged robot. The work presented here is based on this paper by Kim et al. If you don&amp;rsquo;t know what model predictive control is, I recommend this excellent explanation by Steve Brunton. I also found this guide to model predictive control with CasADI to be extremely helpful. CasADi is an open source nonlinear optimization tool which I&amp;rsquo;m using for MPC.</description>
@@ -18,19 +28,10 @@
     <item>
       <title>Solving for the Jacobians of a Robot Leg</title>
       <link>https://bbokser.github.io/posts/2020-05-04/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://bbokser.github.io/posts/2020-05-04/</guid>
       <description>I&amp;rsquo;m currently working on the Python code to control a simulated version of my latest bipedal robot design in PyBullet. My focus over the past few weeks was getting the operational space control to work (many thanks to Travis DeWolf&amp;rsquo;s incredibly helpful blog). After finally getting it to work properly, I have decided to share my math in the hopes of providing a useful example for anyone else having trouble with this.</description>
-    </item>
-    
-    <item>
-      <title>Stable Bipedal Walking in Simulation</title>
-      <link>https://bbokser.github.io/posts/2021-07-20/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bbokser.github.io/posts/2021-07-20/</guid>
-      <description>In late 2019, I designed a custom QDD gearbox. Then I designed a bipedal robot with said gearing. By early 2020 I was spending about an hour per day after work coding a controller for the bipedal robot I had designed. In that time I learned a great deal of Python, and my controls proficiency skyrocketed. Then I started grad school and had to put this project on hold for about six months.</description>
     </item>
     
   </channel>
