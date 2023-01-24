@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Control on Ben Bokser</title>
-    <link>https://bbokser.github.io/categories/Control/</link>
-    <description>Recent content in Control on Ben Bokser</description>
+    <title>spryped on Ben Bokser</title>
+    <link>https://bbokser.github.io/tags/spryped/</link>
+    <description>Recent content in spryped on Ben Bokser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bbokser.github.io/categories/Control/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bbokser.github.io/tags/spryped/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stable Bipedal Walking in Simulation</title>
       <link>https://bbokser.github.io/posts/2021-07-20/</link>

@@ -5,16 +5,6 @@
     <link>https://bbokser.github.io/categories/</link>
     <description>Recent content in Categories on Ben Bokser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bbokser.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Control</title>
-      <link>https://bbokser.github.io/categories/Control/</link>
-      <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://bbokser.github.io/categories/Control/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://bbokser.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
