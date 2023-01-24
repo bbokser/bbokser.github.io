@@ -48,7 +48,8 @@ params:
     hideSummary: false
     showtoc: true 
     tocopen: false
-    disqusShortname: ben_bokser
+    # disqusShortname: ben_bokser
+    # ShowFullTextinRSS: true https://medium.com/@ericapisani/setting-up-an-rss-feed-for-a-hugo-blog-using-the-papermod-theme-a141b3fa1ccd
 
     assets:
         disableHLJS: true # to disable highlight.js
@@ -91,6 +92,9 @@ params:
           url: "https://twitter.com/b_bokser"
         - name: youtube
           url: "https://www.youtube.com/@bbokser"
+        - name: "rss"
+          # url: "http://localhost:1313/index.xml"
+          url: "https://bbokser.github.io/index.xml"
 
     cover:
         hidden: false # hide everywhere but not in structured data
