@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>rexhopper on Ben Bokser</title>
+    <link>https://bbokser.github.io/tags/rexhopper/</link>
+    <description>Recent content in rexhopper on Ben Bokser</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bbokser.github.io/tags/rexhopper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Lesson in Mechanical Resonance</title>
+      <link>https://bbokser.github.io/posts/2023-02-17/</link>
+      <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bbokser.github.io/posts/2023-02-17/</guid>
+      <description>The REx Hopper is now capable of balancing! However, it suffers from extreme oscillation at a relatively low frequency (about 8 Hz).
+This looks like a controller issue&amp;ndash;perhaps even a simple matter of gain tuning&amp;ndash;until you look closer and slow the footage down. It&amp;rsquo;s a clear case of mechanical resonance&amp;ndash;notice how much the leg flexes back and forth.
+Unfortunately, I designed this leg with excessive focus on machining cost and ease of assembly, which led to the use of cantilevered joints and the use of, in retrospect, tiny bearings and shoulder screws.</description>
+    </item>
+    
+  </channel>
+</rss>
