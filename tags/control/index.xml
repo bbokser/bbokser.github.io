@@ -6,7 +6,17 @@
     <description>Recent content in control on Ben Bokser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bbokser.github.io/tags/control/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bbokser.github.io/tags/control/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Derivation of the Manipulator Equation from the Euler-Lagrange Equation</title>
+      <link>https://bbokser.github.io/posts/2023-03-06/</link>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bbokser.github.io/posts/2023-03-06/</guid>
+      <description>The equations of motion for a robot manipulator and its relationship to the Euler-Lagrange equation is well known and extremely useful in robotics, and yet I couldn&amp;rsquo;t find a single source that provides the derivation&amp;ndash;I suppose it&amp;rsquo;s one of those &amp;ldquo;the solution is trivial and is left as an exercise to the reader&amp;rdquo; situations. Well, I&amp;rsquo;m providing one here for dummies like me who need it spelled out step-by-step.
+Let&amp;rsquo;s start with the Euler-Lagrange equation.</description>
+    </item>
+    
     <item>
       <title>Stable Bipedal Walking in Simulation</title>
       <link>https://bbokser.github.io/posts/2021-07-20/</link>
