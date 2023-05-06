@@ -36,8 +36,7 @@ Anyway, I&amp;rsquo;ve started my new job in Boston, whereas work on the REx Hop
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://bbokser.github.io/posts/2023-03-06/</guid>
-      <description>The equations of motion for a robot manipulator and its relationship to the Euler-Lagrange equation is well known and extremely useful in robotics, and yet I couldn&amp;rsquo;t find a single source that provides the derivation&amp;ndash;I suppose it&amp;rsquo;s one of those &amp;ldquo;the solution is trivial and is left as an exercise to the reader&amp;rdquo; situations. Well, I&amp;rsquo;m providing one here for dummies like me who need it spelled out step-by-step.
-Let&amp;rsquo;s start with the Euler-Lagrange equation.</description>
+      <description>The equations of motion for a robot manipulator and their relationship to the Euler-Lagrange equation are well known in the field of robotics, and yet I was unable to find a single source that provides the derivation. I suppose it&amp;rsquo;s one of those &amp;ldquo;the solution is trivial and is left as an exercise to the reader&amp;rdquo; situations. As such, I&amp;rsquo;m providing one here for dummies like me who need it spelled out step-by-step.</description>
     </item>
     
     <item>
