@@ -8,14 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bbokser.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>On the Optimization of Cantilever Beams</title>
+      <title>On the Optimal Design of Cantilever Beams (And Other Lightweight Components)</title>
       <link>https://bbokser.github.io/posts/2023-04-17/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://bbokser.github.io/posts/2023-04-17/</guid>
-      <description>The Problem Let&amp;rsquo;s say we need to design a structural section of a robot arm, as shown.
-We&amp;rsquo;ve been given a few requirements:
-The mass of the component must be minimized at all costs. The length of the link must be 300 mm. The maximum allowed deflection (caused by the component) is 1 mm. The combined mass of the maximum payload and end-effector is 30 kg. The combined center of mass of the payload and end-effector is 50 mm from the joint.</description>
+      <description>Lately I&amp;rsquo;ve been thinking a lot about the design of components that are both lightweight and strong. I&amp;rsquo;ve designed mechanical components and structures for many years through a combination of intuition, back-of-the-envelope calculations, and finite element analysis. But over the years I&amp;rsquo;ve begun to recognize the incredible value in looking at practical problems through the lens of the fundamental underlying math. There&amp;rsquo;s actually so much insight you can gain from this sort of thing and so much more you can do with it using the right tools.</description>
     </item>
     
     <item>
