@@ -67,7 +67,7 @@ params:
     profileMode:
         enabled: true
         title: Ben Bokser's Blog
-        imageUrl: "images/portrait.png"
+        imageUrl: "images/portrait.jpg"
         imageTitle: my image
         imageWidth: 120
         imageHeight: 120
