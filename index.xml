@@ -6,89 +6,73 @@
     <description>Recent content on Ben Bokser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bbokser.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bbokser.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On the Optimal Design of Cantilever Beams</title>
       <link>https://bbokser.github.io/posts/2023-04-17/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://bbokser.github.io/posts/2023-04-17/</guid>
       <description>The Problem Let&amp;rsquo;s say we need to design a structural section of a robot arm, as shown.
 We&amp;rsquo;ve been given a few requirements:
 The mass of the component must be minimized at all costs. The length of the link must be 300 mm. The maximum allowed deflection (caused by the component) is 1 mm. The combined mass of the maximum payload and end-effector is 30 kg. The combined center of mass of the payload and end-effector is 50 mm from the joint.</description>
     </item>
-    
     <item>
       <title>The Parts Are In!</title>
       <link>https://bbokser.github.io/posts/2023-04-08/</link>
       <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://bbokser.github.io/posts/2023-04-08/</guid>
       <description>The new REx Hopper leg parts (which I hinted at in an earlier post) are finally in, and they look great.
 I was worried they&amp;rsquo;d be expensive, but the total cost for all three components shown here (including shipping from China) was only $312.
 As for the other components, they&amp;rsquo;ve been 3D-printed using Windform XT 2.0, which is supposed to have excellent mechanical properties.
 Anyway, I&amp;rsquo;ve started my new job in Boston, whereas work on the REx Hopper is supposed to continue in Pittsburgh.</description>
     </item>
-    
     <item>
       <title>Deriving the Manipulator Equations from the Euler-Lagrange Equation</title>
       <link>https://bbokser.github.io/posts/2023-03-06/</link>
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://bbokser.github.io/posts/2023-03-06/</guid>
       <description>The equations of motion for a robot manipulator and their relationship to the Euler-Lagrange equation are well known in the field of robotics, and yet I was unable to find a single source that provides the derivation. I suppose it&amp;rsquo;s one of those &amp;ldquo;the solution is trivial and is left as an exercise to the reader&amp;rdquo; situations. As such, I&amp;rsquo;m providing one here for dummies like me who need it spelled out step-by-step.</description>
     </item>
-    
     <item>
       <title>A Lesson in Mechanical Resonance</title>
       <link>https://bbokser.github.io/posts/2023-02-17/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://bbokser.github.io/posts/2023-02-17/</guid>
       <description>The REx Hopper is now capable of balancing! However, it suffers from extreme oscillation at a relatively low frequency (about 8 Hz).
 This looks like a controller issue&amp;ndash;perhaps even a simple matter of gain tuning&amp;ndash;until you look closer and slow the footage down. It&amp;rsquo;s a clear case of mechanical resonance&amp;ndash;notice how much the leg flexes back and forth.
 Unfortunately, I designed this leg with excessive focus on machining cost and ease of assembly, which led to the use of cantilevered joints and the use of, in retrospect, tiny bearings and shoulder screws.</description>
     </item>
-    
     <item>
       <title>How to Not Fail at Hardware Projects</title>
       <link>https://bbokser.github.io/posts/2023-01-24/</link>
       <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://bbokser.github.io/posts/2023-01-24/</guid>
       <description>Over the years, I&amp;rsquo;ve witnessed countless failed projects (many of them my own) resulting from poor self-management. Here is how I recommend one approach hardware projects with the correct mentality.
 1. Don&amp;rsquo;t be Optimistic “I wonder if that would be an issue… eh, it’ll probably be fine.”
 “That could potentially fail, but it probably won’t.”
 No, It will never be &amp;ldquo;fine&amp;rdquo;. If a thought like that ever passes through your mind you need to STOP RIGHT THERE and correct whatever critical mistake you’re making.</description>
     </item>
-    
     <item>
       <title>Stable Bipedal Walking in Simulation</title>
       <link>https://bbokser.github.io/posts/2021-07-20/</link>
       <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://bbokser.github.io/posts/2021-07-20/</guid>
       <description>In late 2019, I designed a custom QDD gearbox. Then I designed a bipedal robot with said gearing. By early 2020 I was spending about an hour per day after work coding a controller for the bipedal robot I had designed. In that time I learned a great deal of Python, and my controls proficiency skyrocketed. Then I started grad school and had to put this project on hold for about six months.</description>
     </item>
-    
     <item>
       <title>Model Predictive Control for a Legged Robot</title>
       <link>https://bbokser.github.io/posts/2020-10-12/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://bbokser.github.io/posts/2020-10-12/</guid>
       <description>I have recently implemented a model predictive controller (MPC) to calculate the necessary reaction forces for a legged robot. The work presented here is based on this paper by Kim et al. If you don&amp;rsquo;t know what model predictive control is, I recommend this excellent explanation by Steve Brunton. I also found this guide to model predictive control with CasADI to be extremely helpful. CasADi is an open source nonlinear optimization tool which I&amp;rsquo;m using for MPC.</description>
     </item>
-    
     <item>
       <title>Solving for the Jacobians of a Robot Leg</title>
       <link>https://bbokser.github.io/posts/2020-05-04/</link>
       <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://bbokser.github.io/posts/2020-05-04/</guid>
       <description>I&amp;rsquo;m currently working on the Python code to control a simulated version of my latest bipedal robot design in PyBullet. My focus over the past few weeks was getting the operational space control to work (many thanks to Travis DeWolf&amp;rsquo;s incredibly helpful blog). After finally getting it to work properly, I have decided to share my math in the hopes of providing a useful example for anyone else having trouble with this.</description>
     </item>
-    
-    
   </channel>
 </rss>
