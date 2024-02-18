@@ -85,8 +85,6 @@ params:
           url: "https://github.com/bbokser"
         - name: linkedin
           url: "https://www.linkedin.com/in/ben-bokser/"
-        - name: twitter
-          url: "https://twitter.com/b_bokser"
         - name: youtube
           url: "https://www.youtube.com/@bbokser"
         - name: "rss"
