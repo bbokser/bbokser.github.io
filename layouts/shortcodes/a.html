@@ -1,0 +1,5 @@
+{{/* https://discourse.gohugo.io/t/make-link-downloadable-file-instead-of-displaying-it/33263/7 */}}
+
+<a {{- range $k, $v :=.Params -}} {{- (printf " %s=%q" $k $v) | safeHTMLAttr -}} {{- end -}}>
+    {{- .Inner | .Page.RenderString -}}
+</a>
