@@ -6,8 +6,16 @@
     <description>Recent content in Posts on Ben Bokser</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bbokser.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reviving an MP3 Player from 2007</title>
+      <link>https://bbokser.github.io/posts/2024-06-12/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/posts/2024-06-12/</guid>
+      <description>I love little semi-retro gadgets, maybe because I grew up playing a GameBoy? Anyway, a few months ago, this video about Rockbox really sold me on getting an OG Sandisk Sansa Clip and I ended up ordering a first-generation unopened one off Ebay.
+There was one problem, though. Turns out if you leave a LiPo pack on the shelf for ~15-17 years it stops working. And the Sansa Clip was never designed to be repairable.</description>
+    </item>
     <item>
       <title>Intro to Robot Simulation, Part 1: Point Masses</title>
       <link>https://bbokser.github.io/posts/2024-02-18/</link>

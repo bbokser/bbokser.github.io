@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gadgets on Ben Bokser</title>
+    <link>https://bbokser.github.io/tags/gadgets/</link>
+    <description>Recent content in Gadgets on Ben Bokser</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bbokser.github.io/tags/gadgets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reviving an MP3 Player from 2007</title>
+      <link>https://bbokser.github.io/posts/2024-06-12/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/posts/2024-06-12/</guid>
+      <description>I love little semi-retro gadgets, maybe because I grew up playing a GameBoy? Anyway, a few months ago, this video about Rockbox really sold me on getting an OG Sandisk Sansa Clip and I ended up ordering a first-generation unopened one off Ebay.
+There was one problem, though. Turns out if you leave a LiPo pack on the shelf for ~15-17 years it stops working. And the Sansa Clip was never designed to be repairable.</description>
+    </item>
+  </channel>
+</rss>
