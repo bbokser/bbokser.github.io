@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Ben Bokser</title>
+    <title>Posts on Ben Bokser&#39;s Blog</title>
     <link>https://bbokser.github.io/posts/</link>
-    <description>Recent content in Posts on Ben Bokser</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Posts on Ben Bokser&#39;s Blog</description>
+    <generator>Hugo -- 0.140.1</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bbokser.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,83 +13,110 @@
       <link>https://bbokser.github.io/posts/2024-06-12/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2024-06-12/</guid>
-      <description>I love little semi-retro gadgets, maybe because I grew up playing a GameBoy? Anyway, a few months ago, this video about Rockbox really sold me on getting a first-generation Sandisk Sansa Clip, and I ended up ordering an unopened one off Ebay.
-There was one problem, though. Turns out if you leave a LiPo pack on the shelf for ~15-17 years it stops working. And the Sansa Clip was never designed to be repairable.</description>
+      <description>&lt;p&gt;I love little semi-retro gadgets, maybe because I grew up playing a GameBoy? Anyway, a few months ago, &lt;a href=&#34;https://youtu.be/Qw-VvGsYpSU?feature=shared&#34;&gt;this video about Rockbox&lt;/a&gt; really sold me on getting a first-generation Sandisk Sansa Clip, and I ended up ordering an unopened one off Ebay.&lt;/p&gt;
+&lt;p&gt;There was one problem, though. Turns out if you leave a LiPo pack on the shelf for ~15-17 years it stops working. And the Sansa Clip was never designed to be repairable.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Intro to Robot Simulation, Part 1: Point Masses</title>
       <link>https://bbokser.github.io/posts/2024-02-18/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2024-02-18/</guid>
-      <description>So, you want to write your own dynamic robot simulation from scratch.
-Let&amp;rsquo;s start with one of the simplest possible dynamical systems: a vertically constrained point mass. Think of it as a rocket locked to a linear rail.
-The rocket cannot rotate or translate laterally; it can only move up or down, and can it only control this by either exerting an upward force or letting gravity take its course.</description>
+      <description>&lt;p&gt;So, you want to write your own dynamic robot simulation from scratch.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start with one of the simplest possible dynamical systems: a vertically constrained point mass.
+Think of it as a rocket locked to a linear rail.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2024-02-18/rocket.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The rocket cannot rotate or translate laterally; it can only move up or down,
+and can it only control this by either exerting an upward force or letting gravity take its course.&lt;/p&gt;</description>
     </item>
     <item>
       <title>On the Optimal Design of Cantilever Beams</title>
       <link>https://bbokser.github.io/posts/2023-04-17/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2023-04-17/</guid>
-      <description>The Problem Let&amp;rsquo;s say we need to design a structural section of a robot arm, as shown.
-We&amp;rsquo;ve been given a few requirements:
-The mass of the component must be minimized at all costs. The length of the link must be 300 mm. The maximum allowed deflection (caused by the component) is 1 mm. The combined mass of the maximum payload and end-effector is 30 kg. The combined center of mass of the payload and end-effector is 50 mm from the joint.</description>
+      <description>&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s say we need to design a structural section of a robot arm, as shown.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2023-04-17/arm-diagram.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve been given a few requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The mass of the component must be minimized at all costs.&lt;/li&gt;
+&lt;li&gt;The length of the link must be 300 mm.&lt;/li&gt;
+&lt;li&gt;The maximum allowed deflection (caused by the component) is 1 mm.&lt;/li&gt;
+&lt;li&gt;The combined mass of the maximum payload and end-effector is 30 kg.&lt;/li&gt;
+&lt;li&gt;The combined center of mass of the payload and end-effector is 50 mm from the joint.&lt;/li&gt;
+&lt;li&gt;Both the base and end-effector joints can rotate in any axis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are allowed to assume that the arm does not move dynamically, so that our analysis can be static-only.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Parts Are In!</title>
       <link>https://bbokser.github.io/posts/2023-04-08/</link>
       <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2023-04-08/</guid>
-      <description>The new REx Hopper leg parts (which I hinted at in an earlier post) are finally in, and they look great.
-I was worried they&amp;rsquo;d be expensive, but the total cost for all three components shown here (including shipping from China) was only $312.
-As for the other components, they&amp;rsquo;ve been 3D-printed using Windform XT 2.0, which is supposed to have excellent mechanical properties.
-Anyway, I&amp;rsquo;ve started my new job in Boston, whereas work on the REx Hopper is supposed to continue in Pittsburgh.</description>
+      <description>&lt;p&gt;The new REx Hopper leg parts (which I hinted at in an earlier post) are finally in, and they look great.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2023-04-08/machined_1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I was worried they&amp;rsquo;d be expensive, but the total cost for all three components shown here (including shipping from China) was only $312.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2023-04-08/machined_2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As for the other components, they&amp;rsquo;ve been 3D-printed using &lt;a href=&#34;https://www.windform.com/top-line/windform-xt-2-0/&#34;&gt;Windform XT 2.0&lt;/a&gt;, which is supposed to have excellent mechanical properties.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2023-04-08/3dp.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Anyway, I&amp;rsquo;ve started my new job in Boston, whereas work on the REx Hopper is supposed to continue in Pittsburgh. As such, I&amp;rsquo;ll be directing my design modifications from afar. The project is gradually being transferred into the hands of my former labmates at the REx Lab, who will be running control experiments on the robot.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deriving the Manipulator Equations from the Euler-Lagrange Equation</title>
       <link>https://bbokser.github.io/posts/2023-03-06/</link>
       <pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2023-03-06/</guid>
-      <description>The equations of motion for a robot manipulator and their relationship to the Euler-Lagrange equation are well known in the field of robotics, and yet I was unable to find a single source that provides the derivation. I suppose it&amp;rsquo;s one of those &amp;ldquo;the solution is trivial and is left as an exercise to the reader&amp;rdquo; situations. As such, I&amp;rsquo;m providing one here for dummies like me who need it spelled out step-by-step.</description>
+      <description>&lt;p&gt;The equations of motion for a robot manipulator and their relationship to the Euler-Lagrange equation are well known in the field of robotics, and yet I was unable to find a single source that provides the derivation. I suppose it&amp;rsquo;s one of those &amp;ldquo;the solution is trivial and is left as an exercise to the reader&amp;rdquo; situations. As such, I&amp;rsquo;m providing one here for dummies like me who need it spelled out step-by-step.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Lesson in Mechanical Resonance</title>
       <link>https://bbokser.github.io/posts/2023-02-17/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2023-02-17/</guid>
-      <description>The REx Hopper is now capable of balancing! However, it suffers from extreme oscillation at a relatively low frequency (about 8 Hz).
-This looks like a controller issue&amp;ndash;perhaps even a simple matter of gain tuning&amp;ndash;until you look closer and slow the footage down. It&amp;rsquo;s a clear case of mechanical resonance&amp;ndash;notice how much the leg flexes back and forth.
-Unfortunately, I designed this leg with excessive focus on machining cost and ease of assembly, which led to the use of cantilevered joints and the use of, in retrospect, tiny bearings and shoulder screws.</description>
+      <description>&lt;p&gt;The REx Hopper is now capable of balancing! However, it suffers from extreme oscillation at a relatively low frequency (about 8 Hz).&lt;/p&gt;
+&lt;p&gt;
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/9MAG_7aluU8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2023-02-17/resonance_plot.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This looks like a controller issue&amp;ndash;perhaps even a simple matter of gain tuning&amp;ndash;until you look closer and slow the footage down. It&amp;rsquo;s a clear case of mechanical resonance&amp;ndash;notice how much the leg flexes back and forth.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Not Fail at Hardware Projects</title>
       <link>https://bbokser.github.io/posts/2023-01-24/</link>
       <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2023-01-24/</guid>
-      <description>Over the years, I&amp;rsquo;ve witnessed countless failed projects (many of them my own) resulting from poor self-management. Here is how I recommend one approach hardware projects with the correct mentality.
-1. Don&amp;rsquo;t be Optimistic “I wonder if that would be an issue… eh, it’ll probably be fine.”
-“That could potentially fail, but it probably won’t.”
-No, It will never be &amp;ldquo;fine&amp;rdquo;. If a thought like that ever passes through your mind you need to STOP RIGHT THERE and correct whatever critical mistake you’re making.</description>
+      <description>&lt;p&gt;Over the years, I&amp;rsquo;ve witnessed countless failed projects (many of them my own) resulting from poor self-management. Here is how I recommend one approach hardware projects with the correct mentality.&lt;/p&gt;
+&lt;h2 id=&#34;1--dont-be-optimistic&#34;&gt;1.  Don&amp;rsquo;t be Optimistic&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“I wonder if that would be an issue… eh, it’ll probably be fine.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“That could potentially fail, but it probably won’t.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;No, It will never be &amp;ldquo;fine&amp;rdquo;. If a thought like that ever passes through your mind you need to &lt;strong&gt;STOP RIGHT THERE&lt;/strong&gt; and correct whatever critical mistake you’re making. No joke. That is a &lt;strong&gt;GUARANTEED&lt;/strong&gt; mistake. You are definitely overlooking something. Believe me when I say that I&amp;rsquo;m telling you this from experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stable Bipedal Walking in Simulation</title>
       <link>https://bbokser.github.io/posts/2021-07-20/</link>
       <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2021-07-20/</guid>
-      <description>In late 2019, I designed a custom QDD gearbox. Then I designed a bipedal robot with said gearing. By early 2020 I was spending about an hour per day after work coding a controller for the bipedal robot I had designed. In that time I learned a great deal of Python, and my controls proficiency skyrocketed. Then I started grad school and had to put this project on hold for about six months.</description>
+      <description>&lt;p&gt;In late 2019, I designed a custom QDD gearbox. Then I designed a bipedal robot with said gearing. By early 2020 I was spending about an hour per day after work coding a controller for the bipedal robot I had designed. In that time I learned a great deal of Python, and my controls proficiency skyrocketed. Then I started grad school and had to put this project on hold for about six months. But now, over a year and a half later, I&amp;rsquo;ve finally achieved stable bipedal walking in simulation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Model Predictive Control for a Legged Robot</title>
       <link>https://bbokser.github.io/posts/2020-10-12/</link>
       <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2020-10-12/</guid>
-      <description>I have recently implemented a model predictive controller (MPC) to calculate the necessary reaction forces for a legged robot. The work presented here is based on this paper by Kim et al. If you don&amp;rsquo;t know what model predictive control is, I recommend this excellent explanation by Steve Brunton. I also found this guide to model predictive control with CasADI to be extremely helpful. CasADi is an open source nonlinear optimization tool which I&amp;rsquo;m using for MPC.</description>
+      <description>&lt;p&gt;I have recently implemented a model predictive controller (MPC) to calculate the necessary reaction forces for a legged robot. The work presented here is based on &lt;a href=&#34;https://arxiv.org/pdf/1909.06586.pdf&#34;&gt;this&lt;/a&gt; paper by Kim et al. If you don&amp;rsquo;t know what model predictive control is, I recommend &lt;a href=&#34;https://youtu.be/YwodGM2eoy4&#34;&gt;this&lt;/a&gt; excellent explanation by Steve Brunton. I also found &lt;a href=&#34;https://youtu.be/RrnkPrcpyEA&#34;&gt;this&lt;/a&gt; guide to model predictive control with CasADI to be extremely helpful. CasADi is an open source nonlinear optimization tool which I&amp;rsquo;m using for MPC.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Solving for the Jacobians of a Robot Leg</title>
       <link>https://bbokser.github.io/posts/2020-05-04/</link>
       <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2020-05-04/</guid>
-      <description>I&amp;rsquo;m currently working on the Python code to control a simulated version of my latest bipedal robot design in PyBullet. My focus over the past few weeks was getting the operational space control to work (many thanks to Travis DeWolf&amp;rsquo;s incredibly helpful blog). After finally getting it to work properly, I have decided to share my math in the hopes of providing a useful example for anyone else having trouble with this.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m currently working on the Python &lt;a href=&#34;https://github.com/bbokser/spryped&#34;&gt;code&lt;/a&gt; to control a simulated version of my latest bipedal robot design in PyBullet. My focus over the past few weeks was getting the operational space control to work (many thanks to Travis DeWolf&amp;rsquo;s incredibly helpful &lt;a href=&#34;https://studywolf.wordpress.com/site-index/&#34;&gt;blog&lt;/a&gt;). After finally getting it to work properly, I have decided to share my math in the hopes of providing a useful example for anyone else having trouble with this. There really aren&amp;rsquo;t enough resources on the internet that explain this in a succinct manner.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

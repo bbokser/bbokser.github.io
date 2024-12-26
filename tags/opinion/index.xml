@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Opinion on Ben Bokser</title>
+    <title>Opinion on Ben Bokser&#39;s Blog</title>
     <link>https://bbokser.github.io/tags/opinion/</link>
-    <description>Recent content in Opinion on Ben Bokser</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Opinion on Ben Bokser&#39;s Blog</description>
+    <generator>Hugo -- 0.140.1</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bbokser.github.io/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,15 @@
       <link>https://bbokser.github.io/posts/2023-01-24/</link>
       <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2023-01-24/</guid>
-      <description>Over the years, I&amp;rsquo;ve witnessed countless failed projects (many of them my own) resulting from poor self-management. Here is how I recommend one approach hardware projects with the correct mentality.
-1. Don&amp;rsquo;t be Optimistic “I wonder if that would be an issue… eh, it’ll probably be fine.”
-“That could potentially fail, but it probably won’t.”
-No, It will never be &amp;ldquo;fine&amp;rdquo;. If a thought like that ever passes through your mind you need to STOP RIGHT THERE and correct whatever critical mistake you’re making.</description>
+      <description>&lt;p&gt;Over the years, I&amp;rsquo;ve witnessed countless failed projects (many of them my own) resulting from poor self-management. Here is how I recommend one approach hardware projects with the correct mentality.&lt;/p&gt;
+&lt;h2 id=&#34;1--dont-be-optimistic&#34;&gt;1.  Don&amp;rsquo;t be Optimistic&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“I wonder if that would be an issue… eh, it’ll probably be fine.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“That could potentially fail, but it probably won’t.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;No, It will never be &amp;ldquo;fine&amp;rdquo;. If a thought like that ever passes through your mind you need to &lt;strong&gt;STOP RIGHT THERE&lt;/strong&gt; and correct whatever critical mistake you’re making. No joke. That is a &lt;strong&gt;GUARANTEED&lt;/strong&gt; mistake. You are definitely overlooking something. Believe me when I say that I&amp;rsquo;m telling you this from experience.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
