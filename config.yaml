@@ -1,10 +1,14 @@
 baseURL: "https://bbokser.github.io/"
 disablePathToLower: true
 languageCode: en-us
-title: Ben Bokser
-paginate: 25
+title: Ben Bokser's Blog
 theme: PaperMod
 # publishDir: docs
+
+pagination:
+  disableAliases: false
+  pagerSize: 25
+  path: page
 
 minify:
     disableXML: true
@@ -14,11 +18,12 @@ minify:
 #   fullWidthTheme: false
 #   centerTheme: true
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
+mainsections: ["posts", "papermod"]
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -152,3 +157,4 @@ markup:
         # lineNos: true
         style: monokai
 
+ignoreLogs: 'warning-goldmark-raw-html'
