@@ -13,11 +13,10 @@
       <link>https://bbokser.github.io/posts/2024-12-31/</link>
       <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2024-12-31/</guid>
-      <description>&lt;p&gt;{{ .TableOfContents }}&lt;/p&gt;
-&lt;p&gt;Okay, so we can simulate a floating point mass subject to arbitrary forces.
+      <description>&lt;p&gt;Okay, so we can simulate a floating point mass subject to arbitrary forces.
 Let&amp;rsquo;s now think about what happens when our point mass hits the ground.&lt;/p&gt;
 &lt;p&gt;Assuming 100% stiff, inelastic impact, we would get the following position, velocity, and acceleration trajectories:&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2024-09-15/impact.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2024-12-31/impact.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Notably, the acceleration at impact approaches infinity, which would be very difficult to simulate&amp;ndash;it would require infinitesimal timesteps.
 Of course, in reality there is no such thing as a perfectly stiff and inelastic collision,
 but in the field of robotics we are often concerned with relatively stiff collisions which cause decelerations on the order of microseconds.&lt;/p&gt;</description>
@@ -27,8 +26,7 @@ but in the field of robotics we are often concerned with relatively stiff collis
       <link>https://bbokser.github.io/posts/2024-02-18/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2024-02-18/</guid>
-      <description>&lt;p&gt;{{ .TableOfContents }}&lt;/p&gt;
-&lt;p&gt;So, you want to write your own dynamic robot simulation from scratch.&lt;/p&gt;
+      <description>&lt;p&gt;So, you want to write your own dynamic robot simulation from scratch.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s start with one of the simplest possible dynamical systems: a vertically constrained point mass.
 Think of it as a rocket locked to a linear rail.&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2024-02-18/rocket.png&#34;&gt;&lt;/p&gt;
