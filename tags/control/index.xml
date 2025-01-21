@@ -4,10 +4,56 @@
     <title>Control on Ben Bokser&#39;s Blog</title>
     <link>https://bbokser.github.io/tags/control/</link>
     <description>Recent content in Control on Ben Bokser&#39;s Blog</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.141.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bbokser.github.io/tags/control/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro to Robot Simulation, Part 3: Friction</title>
+      <link>https://bbokser.github.io/posts/2025-01-20/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/posts/2025-01-20/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;In this post, we will add 1-dimensional coulomb friction to our simulation.&lt;/p&gt;
+&lt;p&gt;First off, we&amp;rsquo;re going to need to allow movement in the horizontal direction.
+Our new state-space system will be a 2-dimensional system subject to both horizontal and vertical forces.&lt;/p&gt;
+ 
+$$
+\begin{equation}
+\underbrace{\begin{bmatrix} \dot{x} \\ \dot{z} \\ \ddot{x} \\ \ddot{z} \end{bmatrix}}_{\dot{X}} = 
+\underbrace{\begin{bmatrix}
+	0 &amp;amp; 0 &amp;amp; 1 &amp;amp; 0 \\
+    0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 1 \\
+    0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\
+    0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\
+\end{bmatrix}}_A
+\underbrace{\begin{bmatrix}
+    x \\
+    z \\
+    \dot{x} \\ 
+    \dot{z} 
+\end{bmatrix}}_X 
+&amp;#43; \underbrace{\begin{bmatrix} 
+    0 &amp;amp; 0 \\
+    0 &amp;amp; 0 \\ 
+    \frac{1}{m} &amp;amp; 0 \\
+    0 &amp;amp; \frac{1}{m}
+\end{bmatrix}}_B 
+\underbrace{\begin{bmatrix}
+    f_x \\
+    f_z
+\end{bmatrix}}_F 
+&amp;#43; \underbrace{\begin{bmatrix} 
+    0 \\
+    0 \\
+    0 \\
+    -9.81 
+\end{bmatrix}}_G
+\end{equation}
+$$
+&lt;h2 id=&#34;modeling-friction&#34;&gt;Modeling Friction&lt;/h2&gt;
+&lt;p&gt;For 1-dimensional Coulomb friction, our friction force, $f_x$, is related to our vertical force $f_z$ by the following equation.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Intro to Robot Simulation, Part 2: Contact</title>
       <link>https://bbokser.github.io/posts/2024-12-31/</link>
