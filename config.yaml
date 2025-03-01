@@ -26,6 +26,10 @@ buildExpired: false
 mainsections: ["posts", "papermod"]
 
 params:
+    homeInfoParams:
+      Title: Welcome!
+      Content: Hi! I'm Ben, and this is my blog. Have fun.
+
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Ben Bokser's Blog"
     author: Ben Bokser
@@ -37,7 +41,7 @@ params:
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
-    # disableSpecial1stPost: true
+    disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
@@ -69,21 +73,16 @@ params:
         # icon: ":deciduous_tree:" 
         iconHeight: 35
 
-    profileMode:
-        enabled: true
-        title: Ben Bokser's Blog
-        imageUrl: "images/portrait.jpg"
-        imageTitle: my image
-        imageWidth: 120
-        imageHeight: 120
-        buttons:
-            - name: Posts
-              url: posts
-
-    # homeInfoParams:
-    #     Title: "Ben Bokser's Blog"
-    #     Content: >
-    #         Welcome to my blog.
+    # profileMode:
+    #     enabled: False
+    #     title: Ben Bokser's Blog
+    #     imageUrl: "images/portrait.jpg"
+    #     imageTitle: my image
+    #     imageWidth: 120
+    #     imageHeight: 120
+    #     buttons:
+    #         - name: Posts
+    #           url: posts
 
     socialIcons:
         - name: github
@@ -92,9 +91,10 @@ params:
           url: "https://www.linkedin.com/in/ben-bokser/"
         - name: youtube
           url: "https://www.youtube.com/@bbokser"
-        - name: "rss"
-          # url: "http://localhost:1313/index.xml"
+        - name: rss
           url: "https://bbokser.github.io/index.xml"
+        - name: googlescholar
+          url: "https://scholar.google.com/citations?user=q0ePecsAAAAJ&hl=en&oi=ao"
 
     cover:
         hidden: false # hide everywhere but not in structured data
@@ -128,7 +128,7 @@ menu:
     main:
         - identifier: posts 
           name: Posts 
-          url: /posts/
+          url: /
           weight: 10
         - identifier: tags
           name: Tags
