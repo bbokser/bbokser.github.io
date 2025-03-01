@@ -4,7 +4,7 @@
     <title>Posts on Ben Bokser&#39;s Blog</title>
     <link>https://bbokser.github.io/posts/</link>
     <description>Recent content in Posts on Ben Bokser&#39;s Blog</description>
-    <generator>Hugo -- 0.141.0</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bbokser.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,7 @@
       <link>https://bbokser.github.io/posts/2025-01-20/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2025-01-20/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;In this post, we will add 1-dimensional coulomb friction to our simulation.&lt;/p&gt;
+      <description>&lt;p&gt;In this post, we will add 1-dimensional coulomb friction to our simulation.&lt;/p&gt;
 &lt;p&gt;First off, we&amp;rsquo;re going to need to allow movement in the horizontal direction.
 Our new state-space system will be a 2-dimensional system subject to both horizontal and vertical forces.&lt;/p&gt;
  
@@ -132,8 +131,7 @@ and can it only control this by either exerting an upward force or letting gravi
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/posts/2023-02-17/</guid>
       <description>&lt;p&gt;The REx Hopper is now capable of balancing! However, it suffers from extreme oscillation at a relatively low frequency (about 8 Hz).&lt;/p&gt;
-&lt;p&gt;
-    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/9MAG_7aluU8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -149,11 +147,9 @@ and can it only control this by either exerting an upward force or letting gravi
       <description>&lt;p&gt;Over the years, I&amp;rsquo;ve witnessed countless failed projects (many of them my own) resulting from poor self-management. Here is how I recommend one approach hardware projects with the correct mentality.&lt;/p&gt;
 &lt;h2 id=&#34;1--dont-be-optimistic&#34;&gt;1.  Don&amp;rsquo;t be Optimistic&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“I wonder if that would be an issue… eh, it’ll probably be fine.”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;“I wonder if that would be an issue… eh, it’ll probably be fine.”&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“That could potentially fail, but it probably won’t.”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;“That could potentially fail, but it probably won’t.”&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;No, It will never be &amp;ldquo;fine&amp;rdquo;. If a thought like that ever passes through your mind you need to &lt;strong&gt;STOP RIGHT THERE&lt;/strong&gt; and correct whatever critical mistake you’re making. No joke. That is a &lt;strong&gt;GUARANTEED&lt;/strong&gt; mistake. You are definitely overlooking something. Believe me when I say that I&amp;rsquo;m telling you this from experience.&lt;/p&gt;</description>
     </item>
     <item>
