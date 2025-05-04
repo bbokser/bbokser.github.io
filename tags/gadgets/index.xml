@@ -4,10 +4,19 @@
     <title>Gadgets on Ben Bokser&#39;s Blog</title>
     <link>https://bbokser.github.io/tags/gadgets/</link>
     <description>Recent content in Gadgets on Ben Bokser&#39;s Blog</description>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bbokser.github.io/tags/gadgets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Less Forgiving Alarm Clock</title>
+      <link>https://bbokser.github.io/posts/2025-05-04/</link>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/posts/2025-05-04/</guid>
+      <description>&lt;p&gt;In an ideal world, we&amp;rsquo;d all wake up naturally at the right time of day. But circadian rhythms vary, and sometimes you need a little extra &amp;ldquo;persuasion&amp;rdquo; to get up. And I think the traditional alarm clock is too forgiving.&lt;/p&gt;
+&lt;p&gt;So I made my own.&lt;/p&gt;
+&lt;p&gt;No snooze button, no off button, a backup battery in case you try to unplug it, no way to remove the battery without a hex key, and deactivating it requires hitting a remote key fob. You also can&amp;rsquo;t change the alarm or even the date or time without hitting the remote switch. And the key fob should be hidden as far away from your bed as possible. Obviously this is more effective the larger your home is.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Reviving an MP3 Player from 2007</title>
       <link>https://bbokser.github.io/posts/2024-06-12/</link>

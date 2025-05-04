@@ -4,22 +4,29 @@
     <title>Tags on Ben Bokser&#39;s Blog</title>
     <link>https://bbokser.github.io/tags/</link>
     <description>Recent content in Tags on Ben Bokser&#39;s Blog</description>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bbokser.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Control</title>
-      <link>https://bbokser.github.io/tags/control/</link>
-      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://bbokser.github.io/tags/control/</guid>
+      <title>Electrical</title>
+      <link>https://bbokser.github.io/tags/electrical/</link>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/tags/electrical/</guid>
       <description></description>
     </item>
     <item>
       <title>Gadgets</title>
       <link>https://bbokser.github.io/tags/gadgets/</link>
-      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
       <guid>https://bbokser.github.io/tags/gadgets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Control</title>
+      <link>https://bbokser.github.io/tags/control/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/tags/control/</guid>
       <description></description>
     </item>
     <item>
