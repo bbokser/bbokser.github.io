@@ -41,7 +41,6 @@ params:
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
-    disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
