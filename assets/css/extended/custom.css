@@ -1,4 +1,49 @@
 .post-content p {
-    /* text-align: justify; */
     text-align: left;
+}
+
+@media (min-width: 768px) {
+    /* 1. Default style: Posts without an image use the full width */
+    article.post-entry {
+        display: block !important;
+    }
+
+    /* 2. Targeted style: Only IF the post has a cover image, apply the grid */
+    article.post-entry:has(.entry-cover) {
+        display: grid !important;
+        grid-template-columns: 200px 1fr !important;
+        gap: 20px !important;
+    }
+
+    /* 3. Style the cover image only when it exists */
+    article.post-entry:has(.entry-cover) .entry-cover {
+        grid-column: 1 !important;
+        grid-row: 1 / span 3 !important;
+        margin: 0 !important;
+    }
+
+    /* 4. Ensure text elements take the second column when image exists */
+    article.post-entry:has(.entry-cover) .entry-header, 
+    article.post-entry:has(.entry-cover) .entry-content, 
+    article.post-entry:has(.entry-cover) .entry-footer {
+        grid-column: 2 !important;
+        margin: 0 !important;
+    }
+
+    /* 5. The Ellipsis Fix: Force block-level handling of inner paragraphs */
+    article.post-entry:has(.entry-cover) .entry-content {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical !important;
+        -webkit-line-clamp: 3 !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        line-height: 1.5 !important;
+    }
+
+    /* Force the paragraph inside the entry-content to act as a single line-block */
+    article.post-entry:has(.entry-cover) .entry-content p {
+        margin: 0 !important;
+        padding: 0 !important;
+        display: inline !important; /* Keeps the text flow continuous */
+    }
 }
