@@ -1,0 +1,22 @@
+{{/* This code swaps date for time_range when it exists */}}
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+  {{- if .Params.time_range -}}
+    {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" .Params.time_range .Params.time_range)) }}
+  {{- else -}}
+    {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
+  {{- end -}}
+{{- end -}}
+
+{{- if (.Param "ShowReadingTime") -}}
+  {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- end -}}
+
+{{- if (.Param "ShowWordCount") -}}
+  {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+{{- end -}}
+
+{{- with ($scratch.Get "meta") }}
+  {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}

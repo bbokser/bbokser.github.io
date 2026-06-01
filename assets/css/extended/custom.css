@@ -30,20 +30,19 @@
         margin: 0 !important;
     }
 
-    /* 5. The Ellipsis Fix: Force block-level handling of inner paragraphs */
-    article.post-entry:has(.entry-cover) .entry-content {
+    /* 5. The Ellipsis Fix: Applied DIRECTLY to the paragraph */
+    article.post-entry:has(.entry-cover) .entry-content p {
+        /* Establish the clamp box directly on the text element */
         display: -webkit-box !important;
         -webkit-box-orient: vertical !important;
-        -webkit-line-clamp: 3 !important;
+        -webkit-line-clamp: 3 !important; /* Adjust lines here */
+        
+        /* Force the cutoff */
         overflow: hidden !important;
         text-overflow: ellipsis !important;
-        line-height: 1.5 !important;
-    }
-
-    /* Force the paragraph inside the entry-content to act as a single line-block */
-    article.post-entry:has(.entry-cover) .entry-content p {
+        
+        /* Clean up margins so it aligns nicely with the title */
         margin: 0 !important;
-        padding: 0 !important;
-        display: inline !important; /* Keeps the text flow continuous */
+        line-height: 1.5 !important;
     }
 }
