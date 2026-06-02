@@ -9,6 +9,8 @@ cover:
     relative: false # when using page bundles set this to true
 ---
 
+{{< figure src="/images/projects/rw_quad.jpg" width="75%" align="center" >}}
+
 As a small part of my research work for the [REx Lab](http://roboticexplorationlab.org/), I designed a reaction wheel backpack for a Unitree A1 quadruped.
 
 ### Papers

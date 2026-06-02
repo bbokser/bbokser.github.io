@@ -46,3 +46,9 @@
         line-height: 1.5 !important;
     }
 }
+
+/* Center all standard images in the post body */
+.post-content img {
+    display: block !important;
+    margin: 0 auto !important;
+}

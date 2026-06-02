@@ -10,12 +10,12 @@ cover:
 ---
 {{< split "/images/projects/rexhopper_pybullet.gif" "/images/projects/rexhopper_mujoco.gif" >}}
 
-REx Hopper is a reaction wheel-controlled monopodal hopping robot designed to perform highly dynamic leaping maneuvers with inertial reorientation. I developed it for my Master's thesis during my time at the [Robotic Exploration Lab](https://roboticexplorationlab.org/). Related blog posts can be found [here](/tags/rexhopper/).
+REx Hopper is a reaction wheel-controlled monopodal hopping robot designed to perform highly dynamic leaping maneuvers with inertial reorientation. I developed it for my Master's thesis during my time at the [Robotic Exploration Lab](https://roboticexplorationlab.org/).
+
+Related blog posts can be found [here](/tags/rexhopper/), and more information can be found in the content below.
 
 {{< youtube 9MAG_7aluU8 >}}
 <br/><br/>
-
-More information can be found in the content below.
 
 ### Reports
 - [MS Research Report](/pdfs/bokser_ms_research_report-post-revised.pdf)
