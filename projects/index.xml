@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Ben Bokser&#39;s Blog</title>
+    <link>https://bbokser.github.io/projects/</link>
+    <description>Recent content in Projects on Ben Bokser&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bbokser.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>REx Hopper</title>
+      <link>https://bbokser.github.io/projects/rex_hopper/</link>
+      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/projects/rex_hopper/</guid>
+      <description>A monopod hopper with reaction wheels</description>
+    </item>
+    <item>
+      <title>Reaction Wheel Assisted Quadruped Locomotion</title>
+      <link>https://bbokser.github.io/projects/rw_quad/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/projects/rw_quad/</guid>
+      <description>A reaction wheel backpack for a quadruped</description>
+    </item>
+    <item>
+      <title>Robojoey</title>
+      <link>https://bbokser.github.io/projects/robojoey/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/projects/robojoey/</guid>
+      <description>A vertically constrained monopod hopper</description>
+    </item>
+    <item>
+      <title>Spryped</title>
+      <link>https://bbokser.github.io/projects/spryped/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/projects/spryped/</guid>
+      <description>A Bipedal Robot with Floating-Body MPC</description>
+    </item>
+    <item>
+      <title>SpryDrive</title>
+      <link>https://bbokser.github.io/projects/sprydrive/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/projects/sprydrive/</guid>
+      <description>An affordable dynamic actuator</description>
+    </item>
+    <item>
+      <title>Reaction Wheel Biped</title>
+      <link>https://bbokser.github.io/projects/rw_biped/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/projects/rw_biped/</guid>
+      <description>A bipedal robot with reaction wheel stabilization</description>
+    </item>
+    <item>
+      <title>ExoStride</title>
+      <link>https://bbokser.github.io/projects/exostride/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/projects/exostride/</guid>
+      <description>An assistive knee exoskeleton</description>
+    </item>
+    <item>
+      <title>Toddler Cane</title>
+      <link>https://bbokser.github.io/projects/toddlercane/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://bbokser.github.io/projects/toddlercane/</guid>
+      <description>An assisted mobility device for visually impaired children</description>
+    </item>
+  </channel>
+</rss>
