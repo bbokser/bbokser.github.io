@@ -5,7 +5,7 @@ title: REx Hopper
 summary: "A monopod hopper with reaction wheels"
 showtoc: false
 cover:
-    image: "/images/projects/rexhopper_pybullet.gif"
+    image: "/images/projects/rexhopper/rexhopper_pybullet.gif"
     relative: false # when using page bundles set this to true
 ---
 {{< split "/images/projects/rexhopper_pybullet.gif" "/images/projects/rexhopper_mujoco.gif" >}}
