@@ -5,7 +5,7 @@ title: ExoStride
 summary: "An assistive knee exoskeleton"
 showtoc: false
 cover:
-    image: "/images/projects/exostride.jpg"
+    image: "/images/projects/exostride/exostride.jpg"
     relative: false # when using page bundles set this to true
 ---
 
