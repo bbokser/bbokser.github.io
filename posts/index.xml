@@ -91,7 +91,10 @@ but in the field of robotics we are often concerned with relatively stiff collis
       <description>&lt;p&gt;So, you want to write your own dynamic robot simulation from scratch.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s start with one of the simplest possible dynamical systems: a vertically constrained point mass.
 Think of it as a rocket locked to a linear rail.&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2024-02-18/rocket.png&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;align-center &#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://bbokser.github.io/images/2024-02-18/rocket_thumbnail.png#center&#34; width=&#34;60%&#34;/&gt; 
+&lt;/figure&gt;
+
 &lt;p&gt;The rocket cannot rotate or translate laterally; it can only move up or down,
 and can it only control this by either exerting an upward force or letting gravity take its course.&lt;/p&gt;</description>
     </item>
