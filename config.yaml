@@ -56,6 +56,7 @@ params:
     showtoc: true 
     tocopen: false
     hideAuthor: true
+    hidden: ""
     # disqusShortname: ben_bokser
     # ShowFullTextinRSS: true https://medium.com/@ericapisani/setting-up-an-rss-feed-for-a-hugo-blog-using-the-papermod-theme-a141b3fa1ccd
 

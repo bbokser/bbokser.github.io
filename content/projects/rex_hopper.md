@@ -8,7 +8,7 @@ cover:
     image: "/images/projects/rexhopper/rexhopper_pybullet.gif"
     relative: false # when using page bundles set this to true
 ---
-{{< split "/images/projects/rexhopper_pybullet.gif" "/images/projects/rexhopper_mujoco.gif" >}}
+{{< split "/images/projects/rexhopper/rexhopper_pybullet.gif" "/images/projects/rexhopper/rexhopper_mujoco.gif" >}}
 
 REx Hopper is a reaction wheel-controlled monopodal hopping robot designed to perform highly dynamic leaping maneuvers with inertial reorientation. I developed it for my Master's thesis during my time at the [Robotic Exploration Lab](https://roboticexplorationlab.org/).
 
