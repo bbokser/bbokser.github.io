@@ -10,9 +10,9 @@
     <atom:link href="https://bbokser.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro to Robot Simulation, Part 4: Rigid Bodies</title>
-      <link>https://bbokser.github.io/posts/2026-08-15/</link>
+      <link>https://bbokser.github.io/posts/2026-08-08/</link>
       <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://bbokser.github.io/posts/2026-08-15/</guid>
+      <guid>https://bbokser.github.io/posts/2026-08-08/</guid>
       <description>&lt;p&gt;In the last part of this series, we learned how to simulate a point mass making frictional contact with the ground plane.&lt;/p&gt;
 &lt;p&gt;This time, we&amp;rsquo;ll do the same thing, but with a three-dimensional cube.&lt;/p&gt;
 &lt;h2 id=&#34;modeling-a-floating-rigid-body&#34;&gt;Modeling a Floating Rigid Body&lt;/h2&gt;
